@@ -1,0 +1,38 @@
+# Dependencies
+/vendor/
+
+# Configuration
+/config.json
+
+# Uploads
+/uploads/*
+!uploads/.gitkeep
+
+# IDE
+/.idea/
+/.vscode/
+*.sublime-*
+
+# Logs
+*.log
+
+# Cache
+/cache/*
+!cache/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.phar
+composer.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Error logs
+error_log
+php_errorlog
